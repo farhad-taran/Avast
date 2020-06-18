@@ -28,7 +28,7 @@ namespace Core.Tests
         {
             var expectedResult = new[] { 2, 3, 5, 7, 11, 13 };
 
-            var actualResult = PrimesHelper.GetPrimes(13);
+            var actualResult = PrimesHelper.GetPrimesUpTo(13);
 
             Assert.Equal(expectedResult, actualResult);
         }

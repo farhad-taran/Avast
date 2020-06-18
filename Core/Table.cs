@@ -6,7 +6,7 @@ namespace Core
 {
     public partial class PrimesHelper
     {
-        public class Table
+        public class PrimesTable
         {
             public IList<int> Primes { get; set; }
             public IList<IList<int>> Products { get; set; }
