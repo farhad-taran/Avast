@@ -24,7 +24,7 @@ namespace Core.Tests
         }
 
         [Fact]
-        public void GetPrimes_ReturnsPrimeNumbersUptoAndIncludingInput()
+        public void GetPrimes_ReturnsPrimeNumbersUpToAndIncludingInput()
         {
             var expectedResult = new[] { 2, 3, 5, 7, 11, 13 };
 

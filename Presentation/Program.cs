@@ -17,7 +17,7 @@ namespace Presentation
                 {
                     var table = PrimesHelper.GetPrimesTable(value);
                     Console.WriteLine();
-                    Console.WriteLine(table);
+                    Console.WriteLine(PrimesTableParser.ParseToString(table));
                     Console.WriteLine();
                 }
 
